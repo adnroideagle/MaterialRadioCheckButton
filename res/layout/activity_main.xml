@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <carbon.widget.CheckBox
+        style="@style/carbon_CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:text="check me!" />
+
+    <carbon.widget.CheckBox
+        style="@style/carbon_CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:text="check me!" />
+
+    <carbon.widget.CheckBox
+        style="@style/carbon_CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:text="check me!" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <carbon.widget.RadioButton
+            style="@style/carbon_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="pick me!" />
+
+        <carbon.widget.RadioButton
+            style="@style/carbon_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="pick me!" />
+
+        <carbon.widget.RadioButton
+            style="@style/carbon_RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:text="pick me!" />
+    </RadioGroup>
+
+    <carbon.widget.CheckBox
+        style="@style/carbon_CheckBox"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="end"
+        android:gravity="center_vertical"
+        android:text="" />
+
+</LinearLayout>
